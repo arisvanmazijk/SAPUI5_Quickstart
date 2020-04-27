@@ -19,17 +19,21 @@ sap.ui.define([
 						"Feature-Rich UI Controls",
 						"Consistent User Experience",
 						"Free and Open Source",
-						"Responsive Across Browsers and Devices",
-						"Je Moeder"
+						"Responsive Across Browsers and Devices"
 					]
 				})
 			);
 		},
-
+		
+		onNavBack: function (oControlEvent) {
+			this.byId("app").to(this.byId("start"));
+		},
+		
 		onChange: function (oEvent) {
 			var bState = oEvent.getParameter("state");
 			this.byId("ready").setVisible(bState);
 		}
+		
 	});
 
 });

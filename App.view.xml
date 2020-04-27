@@ -7,7 +7,7 @@
 	xmlns:core="sap.ui.core"
 	xmlns:tnt="sap.tnt">
 	<App id="app">
-		<Page title="Aris App">
+		<Page id="start" title="Aris App">
 			<Button
 				icon="sap-icon://sap-ui5"
 				text="Go!"
@@ -15,7 +15,7 @@
 				type="Emphasized"
 				class="sapUiSmallMargin"/>
 		</Page>
-		<Page id="intro" title="Create Enterprise-Ready Web Apps with Ease">
+		<Page id="intro" title="Create Enterprise-Ready Web Apps with Ease" showNavButton="true" navButtonPress=".onNavBack">
 			<l:BlockLayout background="Light">
 				<l:BlockLayoutRow>
 					<l:BlockLayoutCell>
