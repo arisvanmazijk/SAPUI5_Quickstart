@@ -19,7 +19,8 @@ sap.ui.define([
 						"Feature-Rich UI Controls",
 						"Consistent User Experience",
 						"Free and Open Source",
-						"Responsive Across Browsers and Devices"
+						"Responsive Across Browsers and Devices",
+						"Je Moeder"
 					]
 				})
 			);
